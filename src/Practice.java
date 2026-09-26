@@ -5,7 +5,9 @@ public class Practice {
      * @param items an array of strings to print
      */
     public static void printItems(String[] items) {
-        
+        for (int i = 0; i < items.length; i++) {
+            System.out.println(items[i]);
+        }
     }
 
     /**
@@ -19,7 +21,6 @@ public class Practice {
         
         return false;
     }
-
 
     /**
      * Returns whether every word in the array starts with the letter A (either
