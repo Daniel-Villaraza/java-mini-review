@@ -33,8 +33,18 @@ public class Practice {
      * @return true if every word starts with A (case-insensitive), false otherwise.
      */
     public static boolean allStartWithA(String[] words) {
-        
-        return false;
+        for (int i = 0; i < words.length; i++) {
+            char[] lettersInWord = words[i].toCharArray();
+            String firstLetterInWord = String.valueOf(lettersInWord[0]);
+
+            if (firstLetterInWord.equals("a") || firstLetterInWord.equals("A")) {
+                continue;
+            } else {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     public static void main(String[] args) {
