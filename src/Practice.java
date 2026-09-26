@@ -1,50 +1,22 @@
 public class Practice {
-
     /**
      * Prints each item from an array on a separate line.
-     * 
-     * Example:
-     * 
-     * input:
-     * {"welcome", "to", "cs", "123"}
-     * 
-     * printed output:
-     * welcome
-     * to
-     * cs
-     * 123
      * 
      * @param items an array of strings to print
      */
     public static void printItems(String[] items) {
-        // TODO: Implement this method here!
+        
     }
 
     /**
      * Returns whether a is more than twice the value of b.
-     * 
-     * Examples:
-     * input:
-     *   a: 10, b: 3
-     * return:
-     *   true
-     * 
-     * input:
-     *   a: 6, b: 4
-     * return:
-     *   false
-     * 
-     * input:
-     *   a: 4, b: 2
-     * return:
-     *   false
      * 
      * @param a an int
      * @param b an int
      * @return true if a is strictly more than twice the value of b, false otherwise
      */
     public static boolean moreThanDouble(int a, int b) {
-        // TODO: Delete the dummy return statement and implement this method here!
+        
         return false;
     }
 
@@ -53,24 +25,11 @@ public class Practice {
      * Returns whether every word in the array starts with the letter A (either
      * upper or lower case).
      * 
-     * Examples:
-     * input:
-     *   {"alligators", "are", "AWESOME"}
-     * return:
-     *   true
-     * 
-     * input:
-     *   {"apes", "can", "be", "amazing"}
-     * return:
-     *   false
-     * 
-     * Edge case: If array is empty, return true.
-     * 
      * @param words a array of words
      * @return true if every word starts with A (case-insensitive), false otherwise.
      */
     public static boolean allStartWithA(String[] words) {
-        // TODO: Delete the dummy return statement and implement this method here!
+        
         return false;
     }
 
