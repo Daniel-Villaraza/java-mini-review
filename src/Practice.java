@@ -18,8 +18,11 @@ public class Practice {
      * @return true if a is strictly more than twice the value of b, false otherwise
      */
     public static boolean moreThanDouble(int a, int b) {
-        
-        return false;
+        if (a > 2 * b) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
